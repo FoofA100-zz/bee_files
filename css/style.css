@@ -18,12 +18,12 @@ ul.nav.nav-tabs {
    
 }
 
-.nav-tabs li a {
+.navbar-default .navbar-nav li a {
 	color: #ed5929;
     background-color: #ffffff;
 }
 
-.nav-tabs li.active a {
+.navbar-default .navbar-nav li.active a {
 	color: #ed5929;
 	background-color: #ffffff;
 }
@@ -38,8 +38,9 @@ p.top-tagline {
    font-family: helvetica;
    font-size: 1.5em;  
    float: right;
-   margin-right: 80px;
-   margin-top: 10px;
+   margin-right: 150px;
+   margin-bottom: -5px;
+   margin-top: -20px;
 
  }
 
@@ -65,7 +66,9 @@ p.bottom-tagline{
 	font-family: helvetica;
 	font-size: 2em;  
 	float: right;
-	margin-right: 60px;
+	margin-right: 150px;
+	margin-bottom: 0px;
+	margin-top: -10px;
 
 }
 
@@ -164,21 +167,37 @@ p.statement {
 
 .divider {
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto !important;
+    margin-right: auto !important;
 	background-color: #ed5929; 
 	color: #ffffff;
 	width: auto;
-	padding:10px;
+	padding:5px;
     font-family: helvetica, serif;
     font-size: 3em;
     font-weight: bold;
 
+
 }
 
-img.bottom-logo {
+.divider h1 {
+	text-align: center;
+}
+
+.dif-divider {
 	display: block;
-	margin-top: 10px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+	text-align: center;
+	font-family: helvetica, serif;
+	font-weight: bolder;
+	color: #000000;
+}
+
+
+img.bottom-logo {
+	display: inline;
+	margin-top: 20px;
     margin-left: auto !important;
     margin-right: auto !important;
  	width: 90% !important;
@@ -198,8 +217,56 @@ img.bottom-logo {
  a {
  	text-decoration: none;
  	color: #ffffff;
+ 	margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+  p.resources {
+  	display: block;
+  	margin-left: auto !important;
+    margin-right: auto !important;
+  	font-size: 1.2em;
+ 	margin-top: 65px;
+ 	margin-bottom: 65px;
+ 	padding-left:50px;
+ 	padding-right: 50px;
+ 	font-family: helvetica, serif;
+ 	font-weight: normal;
 
 
+}
+
+li.resources a {
+	color:#bc3b10;
+	text-decoration: underline;
+	font-size: 1.2em;
+	font-family: helvetica, serif;
+	
+
+}
+
+.source {
+	font-weight: bold;
+}
+
+ol.list {
+	color:#bc3b10;
+	text-decoration: underline;
+	font-size: 1.2em;
+	font-family: helvetica, serif;
+	padding-left:65px;
+ 	padding-right: 65px;
+	margin-bottom: 65px;
+
+
+}
+
+ .foot-spacing.bottomlogo {
+ 	display: block;
+ 	margin-left: auto !important;
+    margin-right: auto !important;
  }
 
 
@@ -210,3 +277,14 @@ img.bottom-logo {
 @media(max-width: 1200px){
 	
 	}
+
+@media(max-width: 400px){
+	 a {
+ 	text-decoration: none;
+ 	color: #ffffff;
+ 	margin-left: auto !important;
+    margin-right: auto !important;
+ 
+	
+	}
+}
