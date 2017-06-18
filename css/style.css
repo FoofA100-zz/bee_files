@@ -26,10 +26,21 @@ ul.nav.nav-tabs {
 .navbar-default .navbar-nav li.active a {
 	color: #ed5929;
 	background-color: #ffffff;
+	
+}
+
+.navbar-default .navbar-nav li{
+	color: #ed5929;
+	background-color: #ffffff;
+	font-size: 2em;
 }
 
 .jumbotron {
 	background-color: #ffffff;
+}
+
+h1 {
+	font-family: helvetica, serif;
 }
 
 
@@ -46,6 +57,12 @@ p.top-tagline {
 
  img.abLogo {
  	width: 100% !important;
+ 	height: 100% !important;
+ }
+
+ img.andy {
+ 	width: 300px;
+ 	height: 300px;
  }
 
  .main-logo {
@@ -106,6 +123,8 @@ p.qualified {
 }
 
 p.andi-bio {
+	font-family: helvetica, serif;
+	font-size: 1.5em;
 	
 
 }
@@ -113,14 +132,21 @@ p.andi-bio {
 p.statement {
 	font-family: helvetica;
 	font-weight: bold;
+	font-size: 1.5em;
 	
 }
 
-.andy {
+img.andy {
 
-	width: 300px;
-	height: 400px;
+	width: 100% !important;
+	height: 100% !important;
 	
+}
+
+.dog-bio {
+	font-family: helvetica, serif;
+	font-size: 1.7em;
+	line-height: 30px;
 }
 
 /* .item {
@@ -227,7 +253,7 @@ img.bottom-logo {
   	display: block;
   	margin-left: auto !important;
     margin-right: auto !important;
-  	font-size: 1.2em;
+  	font-size: 1.5em;
  	margin-top: 65px;
  	margin-bottom: 65px;
  	padding-left:50px;
@@ -270,7 +296,30 @@ ol.list {
  }
 
 
+ #video-container {
+   
+     margin-bottom: 20px;
+     margin-right: auto;
+     margin-left: auto;
+     padding-bottom: 100px;
+}
 
+
+/*.video-container {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 50%;
+height: 50%;
+}*/
 
 /*MEDIA QUERIES*/
 
@@ -284,7 +333,10 @@ ol.list {
  	color: #ffffff;
  	margin-left: auto !important;
     margin-right: auto !important;
- 
-	
-	}
+   }
+
+   img.abLogo {
+ 	width: 100% !important;
+ 	height: 100% !important;
+ }
 }
